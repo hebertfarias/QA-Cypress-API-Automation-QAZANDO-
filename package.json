@@ -1,18 +1,10 @@
 {
   "name": "bootcamp-qa-cypress-api-automation-qazando",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
+  "description": "Testes automatizados de API com Cypress e restful-api.dev.",
+  "scripts": { "cy:open": "cypress open", "test": "cypress run", "test:headed": "cypress open" },
+  "keywords": ["qa", "cypress", "api", "testing", "automation"],
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "cypress": "^14.1.0"
-  },
-  "devDependencies": {
-    "mochawesome": "^7.1.3"
-  }
+  "dependencies": { "cypress": "^14.1.0" },
+  "devDependencies": { "mochawesome": "^7.1.3" }
 }
